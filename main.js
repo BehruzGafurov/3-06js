@@ -165,4 +165,67 @@ function frameSoni(minut, frame) {
     return minut * frame * 60;
 }
 
-//ENd Ebadit Questions
+//ENd 28 Ebadit Questions
+
+// Masala 31: Funksiya ikkita sonni taqqoslaydi va katta bo‘lganini qaytaradi.
+function kattaSonniQaytar(son1, son2) {
+    return son1 > son2 ? son1 : son2;
+}
+
+// Masala 32: Sonlardan biri 10ga teng yoki ularning yig‘indisi 10 bo‘lsa, rost qaytarish.
+function teng10(son1, son2) {
+    if (son1 === 10 || son2 === 10 || son1 + son2 === 10) {
+        return "rost";
+    } else {
+        return "yolg‘on";
+    }
+}
+
+// Masala 33: Masofa uchun kerakli benzin miqdorini hisoblash.
+function litrMasofa(km) {
+    let kerakliBenzin = km * 10;
+    return kerakliBenzin < 100 ? 100 : kerakliBenzin;
+}
+
+// Masala 34: Ikki sonning kattasini qaytarish.
+function kattaSon(son1, son2) {
+    return son1 > son2 ? son1 : son2;
+}
+
+// Masala 35: 
+
+
+
+// Masala 36:
+
+
+// Masala 37: Bo‘sh stringni tekshirish.
+function boshStr(str) {
+    if (str === "") {
+        return "rost";
+    } else {
+        return "yolg‘on";
+    }
+}
+
+// Masala 38: Son 5ga bo‘linishini tekshirish.
+function bolinsin5(son) {
+    if (son % 5 === 0) {
+        return "rost";
+    } else {
+        return "yolg‘on";
+    }
+}
+
+// Masala 39: Son 100ga bo‘linishini tekshirish.
+function bolinsin100(son) {
+    if (son % 100 === 0) {
+        return "rost";
+    } else {
+        return "yolg‘on";
+    }
+}
+
+// Masala 40: -
+
+
